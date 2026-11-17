@@ -1,0 +1,9 @@
+# v6: TabPFN v2 on the hosted GPU. The image already has torch, numpy, pandas, scipy,
+# scikit-learn, safetensors and huggingface_hub; these are what tabpfn adds, pinned to
+# the versions that resolved against Python 3.13 on 2026-11-11.
+tabpfn==9.2.0
+einops==0.8.2
+lightgbm==4.7.0
+skrub==0.10.1
+pydantic-settings==2.16.2
+matplotlib==3.11.2
