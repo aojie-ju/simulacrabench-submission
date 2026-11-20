@@ -3,12 +3,14 @@
 This is the code for team **Poverty Killer**'s Test-phase submission to
 [SimulacraBench](https://simulacrabench.org/). SimulacraBench is a NeurIPS 2026
 competition on predicting held-out survey answers in a UNHCR, a UNICEF and a World Bank
-instrument. The accompanying technical report on OpenReview describes the method.
+instrument. The technical report, [`technical_report.pdf`](technical_report.pdf), describes
+the method; it is the write-up submitted with the entry on OpenReview.
 
 ## Contents
 
 | Path | What it is |
 |---|---|
+| `technical_report.pdf` | The technical report: method, Test-phase results, limitations and full configuration. |
 | `submission/main.py` | `predict(frame, schema)`, exactly as uploaded to the Test phase (`BUDGET = 3600`). |
 | `submission/requirements.txt` | Packages installed into the hosted image: `tabpfn` and its pinned dependencies. |
 | `submission/models.txt` | The Hugging Face model the platform downloads before the clock starts: `Prior-Labs/TabPFN-v2-clf`. |
